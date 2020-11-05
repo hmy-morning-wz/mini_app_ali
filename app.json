@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/guide/guide",
+    "pages/webview/webview",
+    "pages/useHelper/index",
+    "pages/cardManage/cardManage",
+    "pages/refundCard/refundCard",
+    "pages/rightsList/rightsList",
+
+    "pages/card/pages/launch/launch",
+    "pages/card/pages/main/main",
+    "pages/card/pages/certCallback/certCallback",
+    "pages/card/pages/guide/guide",
+    "pages/card/pages/protocol/protocol",
+    "pages/card/pages/launch-error/launch-error",
+    "pages/card/pages/activate/index",
+    "pages/card/pages/index/index",
+    "pages/card/pages/invoke/invoke",
+    "pages/card/pages/balance/balance",
+    "pages/card/pages/busline/busline",
+    "pages/card/pages/usage/usage",
+    "pages/card/pages/recharge/recharge",
+    "pages/card/pages/payresult/payresult",
+    "pages/card/pages/paydetail/paydetail",
+    "pages/card/pages/payrecords/payrecords",
+    "pages/card/pages/travel/travel",
+    "pages/card/pages/traveldetail/traveldetail",
+    "pages/card/pages/success/index",
+    "pages/card/pages/error/error"
+    
+  ],
+  "window": {
+    "enableDSL": "YES",
+    "enableJSC": "YES",
+    "enableKeepAlive": "NO",
+    "enableInPageRender":"YES",
+    "enableWK": "YES",
+    "nboffline": "sync",
+    "tinyPubRes": "YES",
+    "showDomain": "NO",
+    "backgroundColor": "#F5F5F5",
+    "defaultTitle": "",
+    "titleBarColor": "#108EE9"
+  },
+  "debug": true
+}

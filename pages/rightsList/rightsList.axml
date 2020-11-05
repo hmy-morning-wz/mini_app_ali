@@ -1,0 +1,4 @@
+<view class="box">
+  <rights-list onBtnItem="onBtnRightsItem" rightsCardData="{{$global.rightsDatas}}" />
+  <bottomline />
+</view>

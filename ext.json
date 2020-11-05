@@ -1,0 +1,14 @@
+{
+  "extEnable": true,
+  "ext": {
+    "cityInfo": {
+      "appid": "2019011963145071",
+      "cardType": "T0321000",
+      "cityCode": "321000",
+      "title": "扬州市民卡",
+      "city":"扬州",     
+      "unit_id":"ad_tiny_2019011863024940_154"
+   
+    }
+  }
+}

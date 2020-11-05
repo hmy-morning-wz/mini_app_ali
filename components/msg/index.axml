@@ -1,0 +1,31 @@
+<view hidden="{{!showVoucher}}" class="modal-container flex justify-content align-center" >
+  <view class="modal-bg"></view>
+  <view class="modal-body">
+    <view class="modal-header">
+      <view class="modal-title">送你 {{voucher.totalMoney}} 元出行红包</view>
+      <view class="desc">快开启绿色公交出行吧</view>
+    </view>
+    <view class="modal-content">
+      <scroll-view scroll-y trap-scroll class="voucherInfoList">
+        <view a:for="{{voucher.voucherInfoList}}" style="background-image:url(../../images/icon/bg_quan.png)" 
+      class="msg-item flex">
+          <view class="msg-left flex flex-column justify-content align-center fontRed">
+            <view class="msg-money">
+              ¥ <text class="font54">{{item.voucherMoney}}</text>
+            </view>
+            <view class="msg-coupon {{ item.voucherTypeStr === '乘车红包' ? 'msg-red' : ''}}" >{{item.voucherTypeStr}}</view>
+          </view>
+          <view class="msg-right">
+            <view class="msg-voucherName">{{item.voucherName}}</view>
+            <view class="msg-brandName">{{item.brandName}}</view>
+            <view class="msg-time">{{item.gmtExpiredStr}} 到期</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+    <view class="bgred"></view>
+    <view class="modal-footer flex justify-content ">
+      <image class="close" src="../../images/icon/x.png" onTap="onBtnMsg" />
+    </view>
+  </view>
+</view>

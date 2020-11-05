@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "使用帮助",
+  "usingComponents": {
+    "usehelp-item":"../../module/cardManage/useHelp-item/index"
+  }
+}
